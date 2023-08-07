@@ -15,9 +15,8 @@ export default class CardsExamplesPage extends React.Component {
   render() {
     return (
       <>
-              <Notice>
-
-           <span>
+        <Notice icon="flaticon-warning font-primary">
+          <span>
             Bootstrap’s cards provide a flexible and extensible content
             container with multiple variants and options.
           </span>{" "}

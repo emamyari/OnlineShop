@@ -40,7 +40,23 @@ export default function FixedContainer() {
 export default function ContainerExamplesPage() {
   return (
     <>
-      
+      <Notice icon="flaticon-warning font-primary">
+        <span>
+          The container centers your content horizontally. It's the most basic
+          layout element.
+        </span>{" "}
+        <span>
+          For more info please check the components's official{" "}
+          <a
+            target="_blank"
+            className="font-weight-bold"
+            rel="noopener noreferrer"
+            href="https://material-ui.com/components/container/"
+          >
+            demos & documentation
+          </a>
+        </span>
+      </Notice>
       <KTCodeExample jsCode={jsCode1} beforeCodeTitle="Fluid">
         <span>
           A fluid container width is bounded by that maxWidth property value.

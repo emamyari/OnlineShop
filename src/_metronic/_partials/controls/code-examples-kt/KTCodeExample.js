@@ -56,7 +56,12 @@ export function KTCodeExample({
       <CardHeader title={beforeCodeTitle} toolbar={toolbar} />
       <CardBody>
         <>{children}</>
-        
+        <KTCodeBlock
+          languages={defaultLanguages}
+          tabs={{ tabId, setTabId }}
+          codeShown={{ isCodeBlockShown, setIsCodeBlockShown }}
+          customStyle={customStyle}
+        />
       </CardBody>
     </Card>
   );
