@@ -1,12 +1,9 @@
 import React from "react";
+import {useSubheader} from "../../_metronic/layout";
 
-import ProductCard from '../modules/ReactBootstrapExamples/ProductCard/ProductCard'
-export function Products () {
+export const Products = () => {
+  const suhbeader = useSubheader();
+  suhbeader.setTitle("Products");
 
-  return (
-
-     <ProductCard></ProductCard> 
-     );
+  return (<>Products</>);
 };
-
- 
