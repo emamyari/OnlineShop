@@ -17,7 +17,7 @@ export const Products = () => {
 
   return (<div className="row">
   
-<Card style={{ width: '18rem' }}>
+<Card className="m-5" style={{ width: '18rem'}}>
   <Card.Img variant="top" src="https://sanvarifashion.com/images/product/2021/11/tummy-cover-ikat-low-rate-blous-collection-2021-11-13_13_39_29.jpeg" />
   <Card.Body>
     <Card.Title>Tank Top</Card.Title>
@@ -29,7 +29,7 @@ export const Products = () => {
   </Card.Body>
 </Card>
 <>   </>
-<Card style={{ width: '18rem' }}>
+<Card className="m-5" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://sanvarifashion.com/images/product/2021/11/tummy-cover-ikat-low-rate-blous-collection-2021-11-13_13_39_29.jpeg" />
   <Card.Body>
     <Card.Title>Tank Top</Card.Title>
