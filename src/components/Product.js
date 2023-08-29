@@ -5,7 +5,7 @@ function Product(){
 
     return ( 
 
-        <div class="col-md-4 col-xxl-4 col-lg-12">
+        <div class="col-md-2 col-xxl-2 col-lg-2">
          <div class="card card-custom card-shadowless">
             <div class="card-body p-0">
                
