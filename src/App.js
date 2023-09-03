@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Product from './components/Product';
+import Cart from './components/Cart';
 import Login from './components/Login' ;
 
 function App() {
   return (
     <div>
-    <Product/>
+    <Cart/>
    
     {/* <Login/> */}
     </div> 
