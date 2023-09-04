@@ -7,6 +7,7 @@ import { Register } from "./pages/register";
 import { Slider } from "./pages/slider";
 import { Products } from "./pages/Products";
 import { DashboardPage } from "./pages/DashboardPage";
+import cart from "./pages/cart.jsx";
 
 const GoogleMaterialPage = lazy(() =>
   import("./modules/GoogleMaterialExamples/GoogleMaterialPage")
@@ -40,6 +41,7 @@ export default function BasePage() {
         <ContentRoute path="/register" component={Register} />
         <ContentRoute path="/products" component={Products} />
         <ContentRoute path="/slider" component={Slider} />
+        <ContentRoute path="/cart" component={cart} />
         <Route path="/google-material" component={GoogleMaterialPage} />
         <Route path="/react-bootstrap" component={ReactBootstrapPage} />
         <Route path="/e-commerce" component={ECommercePage} />
