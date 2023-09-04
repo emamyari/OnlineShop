@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * Create React App entry point. This and `public/index.html` files can not be
  * changed or moved.
@@ -60,3 +61,22 @@ ReactDOM.render(
   </MetronicI18nProvider>,
   document.getElementById("root")
 );
+=======
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+>>>>>>> 1898674933a18c8c5c4232c8e714d861fe296bc4
