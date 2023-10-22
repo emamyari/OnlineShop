@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './components/Login';
+import Productinfo from './components/productinfo';
 function App() {
   return (
     <div className="App">
-       <Login></Login>
+       <Productinfo></Productinfo>
     </div>
   );
 }
