@@ -4,8 +4,10 @@ import '../assets/plugins/global/plugins.bundle.css'
 import '../assets/plugins/custom/prismjs/prismjs.bundle.css'
 import '../assets/css/style.bundle.css'
 import '../assets/css/pages/login/login-1.css'
+
+import '../font/font.css'
  function Login() {
-    return ( <div className="d-flex flex-column flex-root">
+    return ( <div className="d-flex flex-column flex-root fontv" dir="rtl">
     {/* <!--begin::Login--/> */}
     <div className="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
         {/* <!--begin::Aside--> */}
@@ -38,29 +40,29 @@ import '../assets/css/pages/login/login-1.css'
                     <form className="form" novalidate="novalidate" id="kt_login_signin_form">
                         {/* <!--begin::T/itle--> */}
                         <div className="pb-13 pt-lg-0 pt-5">
-                            <h3 className="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Welcome to Metronic</h3>
-                            <span className="text-muted font-weight-bold font-size-h4">New Here?
-                            <a href="javascript:;" id="kt_login_signup" className="text-primary font-weight-bolder">Create an Account</a></span>
+                            <h3 className="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">خوش آمدید</h3>
+                            <span className="text-muted font-weight-bold font-size-h4">اکانت ندارید؟
+                            <a href="javascript:;" id="kt_login_signup" className="text-primary font-weight-bolder">یک اکانت بسازید </a></span>
                         </div>
                         {/* <!--begin::Title--> */}
                         {/* <!--begin::Form group--> */}
                         <div class="form-group">
-                            <label className="font-size-h6 font-weight-bolder text-dark">Email</label>
-                            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg" type="text" name="username" autocomplete="off" />
+                            <label className="font-size-h6 font-weight-bolder text-dark pt-5 float-right" >ایمیل</label>
+                            <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg pt-5" type="text" name="username" autocomplete="off" />
                         </div>
                         {/* <!--end::Form group--> */}
                         {/* <!--begin::Form group--> */}
                         <div className="form-group">
                             <div className="d-flex justify-content-between mt-n5">
-                                <label className="font-size-h6 font-weight-bolder text-dark pt-5">Password</label>
-                                <a href="javascript:;" className="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5" id="kt_login_forgot">Forgot Password ?</a>
+                                <label className="font-size-h6 font-weight-bolder text-dark pt-5">رمز عبور</label>
+                                <a href="javascript:;" className="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5" id="kt_login_forgot">رمز خود را فراموش کرده اید؟</a>
                             </div>
                             <input className="form-control form-control-solid h-auto py-6 px-6 rounded-lg" type="password" name="password" autocomplete="off" />
                         </div>
                         {/* <!--end::Form group-->
                         <!--begin::Action--> */}
-                        <div className="pb-lg-0 pb-5">
-                            <button type="button" id="kt_login_signin_submit" className="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Sign In</button>
+                        <div className="pb-lg-0 pb-5 float-right ">
+                            <button type="button" id="kt_login_signin_submit" className="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3 float-right ml-3">ورود</button>
                             <button type="button" className="btn btn-light-primary font-weight-bolder px-8 py-4 my-3 font-size-lg">
                             <span className="svg-icon svg-icon-md">
                                 {/* <!--begin::Svg Icon | path:assets/media/svg/social-icons/google.svg--> */}
@@ -71,7 +73,7 @@ import '../assets/css/pages/login/login-1.css'
                                     <path d="M10.1993 3.85336C12.1142 3.85336 13.406 4.66168 14.1425 5.33717L17.0207 2.59107C15.253 0.985496 12.9527 0 10.1993 0C6.2106 0 2.76588 2.23672 1.08887 5.49214L4.38626 7.99466C5.21352 5.59183 7.50242 3.85336 10.1993 3.85336Z" fill="#EB4335" />
                                 </svg>
                                 {/* <!--end::Svg Icon--> */}
-                            </span>Sign in with Google</button>
+                            </span >ورود با اکانت گوگل</button>
                         </div>
                         {/* <!--end::Action--> */}
                     </form>
