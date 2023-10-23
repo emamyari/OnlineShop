@@ -4,6 +4,7 @@ import '../assets/plugins/global/plugins.bundle.css'
 import '../assets/plugins/custom/prismjs/prismjs.bundle.css'
 import '../assets/css/style.bundle.css'
 import '../assets/css/pages/login/login-1.css'
+
  function Login() {
     return ( <div className="d-flex flex-column flex-root">
     {/* <!--begin::Login--/> */}
