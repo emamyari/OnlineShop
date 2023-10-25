@@ -1,9 +1,10 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import ProductList from './components/ProductList';
 import ProductInfo from './components/Products';
+import Cart from './components/Cart';
 import Login from './components/Login';
 import Header from './components/header';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Filter from './components/filter';
 import Slider from './components/Slider';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/header' element={<Header />} />
           <Route path='/filter' element={<Filter />} />
           <Route path='/slider' element={<Slider />} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
     </Router>
   );
