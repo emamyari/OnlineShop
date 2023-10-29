@@ -7,11 +7,11 @@ import '../assets/css/pages/login/login-1.css'
 
 import '../font/font.css'
  function Login() {
-    return ( <div className="d-flex flex-column flex-root fontv" dir="rtl">
+    return ( <div className="d-flex flex-column flex-root fontv " dir="rtl" style={{height: '100vh'}}>
     {/* <!--begin::Login--/> */}
     <div className="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
         {/* <!--begin::Aside--> */}
-        <div className="login-aside d-flex flex-column flex-row-auto" style={{backgroundColor: '#79a4c7' }}>   
+        <div className="login-aside d-flex flex-column flex-row-auto" style={{backgroundColor: '#79a4c7', backgroundImage: `url(" + "assets/media/svg/illustrations/hand-drawn-doodle-girl-with-login-form-web-page-illustration-vector.jpg" + ")`}}>   
             {/* <!--begin::Aside Top--> */}
             <div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
                 {/* <!--begin::Aside header--> */}
@@ -26,7 +26,7 @@ import '../font/font.css'
             </div>
             {/* <!--end::Aside Top--> */}
             {/* <!--begin::Aside Bottom--> */}
-            <div className="aside-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-top bgi-position-x-center" style={{backgroundImage: "url(" + "assets/media/svg/illustrations/login-visual-1.svg" + ")"}}></div>
+            <div className="aside-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-top bgi-position-x-center" style={{backgroundImage: "url(" + "https://lovepik.com/images/png-login.html" + ")"}}></div>
             {/* <!--end::Aside Bottom--> */}
         </div>
         {/* <!--begin::Aside--> */}
