@@ -9,6 +9,9 @@ import Filter from './components/filter';
 import Slider from './components/Slider';
 import Info from './components/PersonalInfo';
 
+import MiniSlider from './components/MinilSlider';
+
+
 function App() {
   return (
     <Router>
@@ -21,8 +24,11 @@ function App() {
           <Route path='/slider' element={<Slider />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/info' element={<Info />} />
+          <Route path='/miniSlider' element={<MiniSlider />} />
         </Routes>
+    
     </Router>
+    
   );
 }
 
