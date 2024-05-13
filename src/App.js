@@ -33,10 +33,7 @@ function App() {
         <Route path='/sabad' element={<ShoppingCartPage />} />
       </Routes>
 
-    </Router><div>
-        <h1>My App</h1>
-        <MenuButton items={menuItems}/>
-      </div></>
+    </Router></>
   );
 }
 
