@@ -13,13 +13,20 @@ import MiniSlider from './components/MinilSlider';
 import Nav from './components/Nav';
 import MenuButton from './components/NanMenue';
 import ShoppingCartPage from './components/KharidSabad';
-
+import ShoppingNavbar from './components/Nav';
 function App() {
   const menuItems = ['Item 1', 'Item 2', 'Item 3'];
   return (
     
     <><Router>
-      <Nav />
+    <div className="App">
+      <ShoppingNavbar />
+      <div style={{ paddingTop: '120px', padding: '120px' }}>
+      
+        <h1>Welcome to ShopMate</h1>
+        <p>Your favorite place to shop online for all your needs.</p>
+      </div>
+    </div>
       <Routes>
         <Route path='/' element={<ProductList />} />
         <Route path='/detail' element={<ProductInfo />} />
