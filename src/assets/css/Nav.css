@@ -1,5 +1,5 @@
 .shopping-navbar {
-  background-color: #333;
+  background-color: #ffffff;
   color: #fff;
   padding: 15px 0;
   position: fixed;
@@ -16,12 +16,14 @@
   align-items: center;
   padding: 0 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .navbar-logo {
   display: flex;
   align-items: center;
+  color: #3e3e3e;
+  text-shadow: 0 0 11px #00ff0d;
 }
 
 .logo-image {
@@ -35,14 +37,14 @@
 }
 
 .navbar-links a, .dropdown .dropbtn {
-  margin: 0 15px;
-  color: #fff;
+  margin: 0 20px;
+  color: #3e3e3e;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
 .navbar-links a:hover, .dropdown:hover .dropbtn {
-  color: #ff9800;
+  color: #4ba000;
 }
 
 .dropdown {
@@ -67,7 +69,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #b1a9a9;
 }
 
 .dropdown:hover .dropdown-content {
@@ -77,6 +79,7 @@
 .navbar-search {
   display: flex;
   align-items: center;
+  margin-right: 50px;
 }
 
 .navbar-search input {
@@ -85,12 +88,14 @@
   border: none;
   border-radius: 4px;
   margin-right: 10px;
+  margin-left: 50px;
+  border-bottom: 2px solid rgb(145, 145, 145);
 }
 
 .navbar-search button {
   padding: 8px 16px;
   font-size: 1rem;
-  background-color: #ff9800;
+  background-color: #308800;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -104,16 +109,36 @@
 
 .icon-link {
   margin-left: 15px;
-  color: #fff;
+  color: #202020;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
 .icon-link:hover {
-  color: #ff9800;
+  color: #4ba000;
 }
 
 .icon {
   margin-right: 5px;
   font-size: 1.3rem;
 }
+
+.btnn {
+  display: inline-block;
+  background-color: #3498db00; /* Blue background color */
+  color: rgb(54, 54, 54); /* White text color */
+  text-align: center;
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+  text-decoration: none; /* No underline */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+.btnn:hover{
+  color: #4ba000;
+}
+
+
+

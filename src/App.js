@@ -21,23 +21,23 @@ function App() {
     <><Router>
     <div className="App">
       <ShoppingNavbar />
-      <div style={{ paddingTop: '120px', padding: '120px' }}>
+      <div style={{ paddingTop: '120px', padding: '100px' }}>
       
         <h1>Welcome to ShopMate</h1>
         <p>Your favorite place to shop online for all your needs.</p>
       </div>
     </div>
       <Routes>
-        <Route path='/' element={<ProductList />} />
+        <Route path='home' element={<ProductList />} />
         <Route path='/detail' element={<ProductInfo />} />
-        <Route path='/login' element={<Login />} />
+        <Route path='login' element={<Login />} />
         <Route path='/header' element={<Header />} />
         <Route path='/filter' element={<Filter />} />
         <Route path='/slider' element={<Slider />} />
-        <Route path='/cart' element={<Cart />} />
+        <Route path='cart' element={<Cart />} />
         <Route path='/info' element={<Info />} />
         <Route path='/rpp' element={<RPP />} />
-        <Route path='/sabad' element={<ShoppingCartPage />} />
+        
       </Routes>
 
     </Router></>
