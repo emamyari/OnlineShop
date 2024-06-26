@@ -37,7 +37,7 @@
 }
 
 .navbar-links a, .dropdown .dropbtn {
-  margin: 0 20px;
+  margin: 0 15px;
   color: #3e3e3e;
   text-decoration: none;
   font-size: 1.1rem;
@@ -140,5 +140,36 @@
   color: #4ba000;
 }
 
+.modal-backdrop.show {
+  opacity: 0.5; /* تنظیم شفافیت پس‌زمینه */
+  background-color: rgba(0, 0, 0, 0.5); /* رنگ مات برای پس‌زمینه */
+}
+
+/* اضافه کردن خاصیت blur به پس‌زمینه مدال‌های بوت‌استرپ */
+.modal-backdrop {
+  backdrop-filter: blur(5px); /* تنظیم مات بودن پس زمینه */
+  background-color: rgba(0, 0, 0, 0.5); /* تنظیم رنگ پس زمینه با شفافیت */
+}
+
+.textt:hover{
+  text-shadow: 0 0 9px #05ff05;
+  transition: text-shadow 0.5s ease;
+}
+
+.size-icon-check:hover{
+  text-shadow: 0 0 7px #38c301;
+  color: #202020;
+  transition: color 0.3s ease; /* ترنزیشن بر روی r به مدت 0.3 ثانیه با حالت نرم (ease) */
+}
 
 
+
+
+
+.custom-modal .modal-content { /* این مودال کانتنت باید دقیقا همین نام رو داشته باشه. در واقع برای بوت استرپه استفاده میشه برای محتوای داخلی مودال که
+  تغییر کنه همراه با تغییر کادر مودال*/
+  border: 4px solid #818181; /* Example border style */
+  border-radius: 2px; /* Optional: Rounded corners */
+
+  
+}
