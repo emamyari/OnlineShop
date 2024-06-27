@@ -168,8 +168,8 @@
 
 .custom-modal .modal-content { /* این مودال کانتنت باید دقیقا همین نام رو داشته باشه. در واقع برای بوت استرپه استفاده میشه برای محتوای داخلی مودال که
   تغییر کنه همراه با تغییر کادر مودال*/
-  border: 4px solid #818181; /* Example border style */
-  border-radius: 2px; /* Optional: Rounded corners */
+  border: 4px solid #ececec; /* Example border style */
+  border-radius: 7px; /* Optional: Rounded corners */
 
   
 }
